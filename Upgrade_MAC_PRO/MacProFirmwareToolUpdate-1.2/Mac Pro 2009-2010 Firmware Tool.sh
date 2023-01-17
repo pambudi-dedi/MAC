@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ sudo python -m SimpleHTTPServer 80
 if [[ "$(id -g)" -ne "0" ]]; then
   echo "Please run with sudo $0"
   exit 1
